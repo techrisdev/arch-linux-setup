@@ -31,5 +31,5 @@ bspc config center_pseudo_tiled true
 
 bspc rule -a firefox desktop=^1 follow=on
 
-# Xorg stuff
+# Xorg stuff, wallpaper
 sh ~/.on_startup.sh

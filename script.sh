@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Script base
 INSTALL_COMMAND="sudo pacman -S"
 echo_stage() {
