@@ -35,6 +35,7 @@ echo_stage "AUR PACKAGES"
 paru -S "$(cat aur_packages)"
 
 echo_stage "DOTFILES"
+cp -r dotfiles ~/
 
 echo_stage "SHELL"
 # Set the default shell to fish
