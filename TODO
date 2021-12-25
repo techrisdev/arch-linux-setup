@@ -1,0 +1,5 @@
+Add Window Manager to packages
+Create a rice in .config: Polybar, WM, picom, rofi
+Login Manager, systemctl services
+xinitrc, xresources
+icon theme, theme
