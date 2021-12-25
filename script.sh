@@ -35,6 +35,8 @@ echo_stage "AUR PACKAGES"
 paru -S "$(cat aur_packages)"
 
 echo_stage "DOTFILES"
+rm -rf ~/.config
+rm -f ~/.on_startup.sh
 cp -r dotfiles ~/
 
 echo_stage "SHELL"
